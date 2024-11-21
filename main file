@@ -1,0 +1,16 @@
+pl = peripheral.wrap("back")
+name = "UserDimensions"
+
+while(true)
+do
+ event, key = os.pullEvent("key")
+
+ if (keys.getName(key) == "r")
+ then
+  term.clear()
+  term.setCursorPos(1, 1)
+  pos = pl.getPlayerPos(name)
+  print("X: "..pos.x.."\n Y: "..pos.y.."\n Z: "..pos.z.."\n  Health: "..pos.health.."/"..pos.maxHealth)
+  
+ end
+end
