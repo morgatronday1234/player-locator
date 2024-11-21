@@ -1,5 +1,6 @@
 pl = peripheral.wrap("back")
 name = "UserDimensions"
+term.clear()
 
 while(true)
 do
@@ -11,6 +12,5 @@ do
   term.setCursorPos(1, 1)
   pos = pl.getPlayerPos(name)
   print("X: "..pos.x.."\nY: "..pos.y.."\nZ: "..pos.z.."\nHealth: "..pos.health.."/"..pos.maxHealth)
-  
  end
 end
