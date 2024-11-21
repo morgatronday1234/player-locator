@@ -10,7 +10,7 @@ do
   term.clear()
   term.setCursorPos(1, 1)
   pos = pl.getPlayerPos(name)
-  print("X: "..pos.x.."\nY: "..pos.y.."\nZ: "..pos.z.."\n Health: "..pos.health.."/"..pos.maxHealth)
+  print("X: "..pos.x.."\nY: "..pos.y.."\nZ: "..pos.z.."\nHealth: "..pos.health.."/"..pos.maxHealth)
   
  end
 end
