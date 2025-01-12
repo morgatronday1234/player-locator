@@ -1,5 +1,5 @@
 pl = peripheral.wrap("back")
-name = "UserDimensions"
+name = ""
 term.clear()
 
 while(true)
